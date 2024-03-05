@@ -1,0 +1,38 @@
+{
+  "name": "particle-bevm-demo",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Demo application for showcasing the implementation of BTC Connect (by Particle Network) on BEVM (a Bitcoin Layer-2).",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "@vitejs/plugin-react": "^2.0.0",
+    "react": "^18.2.0",
+    "typescript": "^4.7.4",
+    "vite": "^3.0.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@particle-network/btc-connectkit": "^1.0.0-alpha.0",
+    "@types/events": "^3.0.3",
+    "antd": "^5.11.5",
+    "assert": "^2.1.0",
+    "buffer": "^6.0.3",
+    "ethers": "5.7.2",
+    "events": "^3.3.0",
+    "react-dom": "^18.2.0",
+    "rollup-plugin-polyfill-node": "^0.13.0",
+    "thresh": "^1.1.0",
+    "vite-plugin-wasm": "^3.2.2",
+    "web3": "^4.3.0"
+  }
+}
