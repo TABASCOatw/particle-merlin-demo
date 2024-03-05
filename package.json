@@ -1,8 +1,8 @@
 {
-  "name": "particle-bevm-demo",
+  "name": "particle-merlin-demo",
   "version": "1.0.0",
   "type": "module",
-  "description": "Demo application for showcasing the implementation of BTC Connect (by Particle Network) on BEVM (a Bitcoin Layer-2).",
+  "description": "Demo application for showcasing the implementation of BTC Connect (by Particle Network) on Merlin Chain (a Bitcoin Layer-2).",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
